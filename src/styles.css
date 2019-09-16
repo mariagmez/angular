@@ -1,0 +1,89 @@
+/** menu */
+.navbar{
+  background-color: white;
+}
+
+.nav-link{
+  color: #03609a!important;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.nav-link:hover{
+  color: #3f4c9b!important;
+}
+
+
+
+
+/** Footer */
+.footer {
+    background-color: white;
+ 
+    width: 100%;
+    display: block;
+    padding: 3rem 0;
+    background-image: linear-gradient(to bottom right, #0887d6,#3F4C9B);
+}
+
+.footer .nav-footer {
+    padding: 1rem;
+}
+.footer .nav-footer h3 {
+    font-size: 1.2rem;
+    color: aliceblue;
+}
+.footer .menu a{
+    text-decoration: none;
+    display: block;
+    padding-top: .5rem;
+    color: #b8dbef;
+}
+.footer .menu a:hover{
+  
+  color: white;
+
+}
+
+.footer p{
+    padding-top: 15px;
+    color: aliceblue;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.servicios{
+  margin: 50px 0px;
+}
+
+
+/* Animaciones */
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  .fast {
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .fadeIn {
+    animation-name: fadeIn;
+  }
