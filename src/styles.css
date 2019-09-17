@@ -58,6 +58,23 @@
 }
 
 
+/* Contacto */
+
+.contacto section{
+  width: 100%;
+  height: 20%;
+}
+
+
+/* Precios */
+
+.precios{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+
+
 /* Animaciones */
 
 .animated {
