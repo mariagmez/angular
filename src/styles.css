@@ -18,6 +18,83 @@ ul li i{
 	vertical-align: middle;
 }
 
+p {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #7c8595;
+  margin-bottom:15px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.2;
+  margin-bottom:20px;
+  color: #2F362F;
+}
+
+h1 {
+	font-size: 42px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+h2.section-title{
+	font-size: 40px;
+    line-height: 40px;
+    color: #2066a4;
+    margin-bottom: 15px;
+}
+
+h2.section-title.grey{
+	color:#ddd;
+}
+
+h2.section-title.white{
+	color:#ffffff;
+}
+
+p.section-subtitle{
+  font-size:20px;
+  line-height: 32px;
+}
+
+p.section-subtitle.grey{
+	color:#bbb;
+}
+
+p.section-subtitle.white{
+	color:#ffffff;
+}
+
+h3.medium-title {
+	font-size: 32px;
+	margin-top:10px;
+}
+
 
 a,
 a:hover,
@@ -32,7 +109,7 @@ a:focus {
 /* 			                   MENU-NAV                       */
 /* ========================================================== */
 
-/* .navbar{
+.navbar{
   background-color: white;
 }
 
@@ -40,11 +117,20 @@ a:focus {
   color: #03609a!important;
   text-transform: uppercase;
   font-weight: normal;
+ 
+}
+.menu {
+  margin: 0 auto; 
+  overflow: hidden;
+  text-align: left;
+}
+.menu ul {
+  float: left;
 }
 
 .nav-link:hover{
   color: #3f4c9b!important;
-}  */
+}  
 
 /* ========================================================== */
 /* 			                   HOME                               */
@@ -53,7 +139,6 @@ a:focus {
 .section-grey{
   background: #f2f7f8;
   padding:75px;
-
 }
 
 
@@ -70,7 +155,6 @@ a:focus {
 /** Footer */
 .footer {
     background-color: white;
- 
     width: 100%;
     display: block;
     padding: 3rem 0;
@@ -91,7 +175,6 @@ a:focus {
     color: #b8dbef;
 }
 .footer .menu a:hover{
-  
   color: white;
 
 }

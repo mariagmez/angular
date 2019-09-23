@@ -7,3 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+ .sobre{
+    padding: 70px;
+  }
+
+  p.section-subtitle{
+    padding-bottom: 70px;
+  }
