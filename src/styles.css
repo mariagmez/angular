@@ -1,5 +1,38 @@
-/** menu */
-.navbar{
+ul, ol { 
+	list-style: none; 
+	list-style-image: none; 
+	margin: 0; 
+	padding: 0;
+	color:#858585;
+	font-size: 14px;
+	line-height:24px;
+	margin-bottom:20px;
+}
+	
+ul li, ol li{
+	font-size: 14px;
+	line-height: 28px;
+}
+
+ul li i{
+	vertical-align: middle;
+}
+
+
+a,
+a:hover,
+a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+
+
+/* ========================================================== */
+/* 			                   MENU-NAV                       */
+/* ========================================================== */
+
+/* .navbar{
   background-color: white;
 }
 
@@ -11,10 +44,28 @@
 
 .nav-link:hover{
   color: #3f4c9b!important;
+}  */
+
+/* ========================================================== */
+/* 			                   HOME                               */
+/* ========================================================== */
+
+.section-grey{
+  background: #f2f7f8;
+  padding:75px;
+
 }
 
 
 
+.precios {
+	padding:75px;
+}
+
+
+.sobre{
+  margin: 50px 0px;
+}
 
 /** Footer */
 .footer {
@@ -58,12 +109,6 @@
 }
 
 
-/* Contacto */
-
-.contacto section{
-  width: 100%;
-  height: 20%;
-}
 
 
 /* Precios */

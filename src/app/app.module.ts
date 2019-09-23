@@ -18,7 +18,6 @@ import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
 import { FooterComponent } from './components/shared/footer/footer.component';
-import { ContactoComponent } from './components/contacto/contacto.component';
 import { PreciosComponent } from './components/precios/precios.component';
 
 @NgModule({
@@ -29,7 +28,6 @@ import { PreciosComponent } from './components/precios/precios.component';
     AboutComponent,
     ServiciosComponent,
     FooterComponent,
-    ContactoComponent,
     PreciosComponent
   ],
   imports: [
