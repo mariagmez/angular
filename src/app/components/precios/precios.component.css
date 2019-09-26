@@ -140,11 +140,18 @@ ul.pricing-list li a.price-tag:hover{
 	border: 1px solid #4285f4;
 	background: #fff;
 }
-/* SPONSORS */
+
+
+
+
+/* ========================================================== */
+/* 			               MARCAS                             */
+/* ========================================================== */
 
 .section-grey.sponsors-padding {
     padding: 35px 0 25px 0;
 }
+
 
 .sponsors{
 	text-align: center;
